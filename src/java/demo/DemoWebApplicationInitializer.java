@@ -1,7 +1,7 @@
 package demo;
 
-import com.marvin.web.DispatcherServlet;
-import com.marvin.web.WebApplicationInitializer;
+import com.marvin.bundle.web.DispatcherServlet;
+import com.marvin.bundle.web.WebApplicationInitializer;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
