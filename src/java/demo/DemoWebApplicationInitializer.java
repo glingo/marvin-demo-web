@@ -12,8 +12,8 @@ public class DemoWebApplicationInitializer implements WebApplicationInitializer 
     @Override
     public void onStartup(ServletContext sc) throws ServletException {
         AppKernel kernel = new AppKernel(true);
-        ServletRegistration.Dynamic dispatcher = sc.addServlet("dispatcher", 
-                new DispatcherServlet(kernel));
+        ServletRegistration.Dynamic dispatcher = 
+                sc.addServlet("dispatcher", new DispatcherServlet(kernel));
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("/*");
     }
