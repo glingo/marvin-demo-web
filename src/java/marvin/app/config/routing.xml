@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routing>
+
+    <!-- Default controller routes -->
+    <route name="default.index" path="/">
+        <default key="_controller">marvin.app.controller.DefaultController::index</default>
+        <!--<default key="_controller">Default:index</default>-->
+    </route>
+    
+    <import resource="/marvin/demo/resources/config/routing.xml" prefix="/demo" />
+
+</routing>
