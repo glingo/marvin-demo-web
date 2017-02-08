@@ -49,3 +49,5 @@ Temporary Items
 nbproject/
 nbproject/private/
 build.xml
+/dist/
+/build/
